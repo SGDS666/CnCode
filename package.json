@@ -1,7 +1,7 @@
 {
   "name": "cncode",
   "homepage": "https://github.com/SGDS666/CnCode",
-  "version": "1.0.27",
+  "version": "1.0.28",
   "description": "",
   "main": "./cnCode.js",
   "scripts": {
