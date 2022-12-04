@@ -1,13 +1,14 @@
 {
   "name": "cncode",
   "homepage": "https://github.com/SGDS666/CnCode",
-  "version": "1.0.31",
+  "version": "1.0.311",
   "description": "",
   "main": "./cnCode.js",
-  "scripts": {
-    
-  },
+  "scripts": {},
   "keywords": [],
   "author": "sgds",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cncode": "1.0.0"
+  }
 }
