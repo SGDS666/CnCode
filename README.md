@@ -236,3 +236,28 @@ const clear = time.interval((n) => {
   console.log(n);
 }, 1000);
 ```
+## 错误捕获
+``` javascript
+const {错误处理} = require('./cnCode')
+
+const 这玩意肯定报错 = () => {
+
+    const arr = 1
+    arr.push(2) //  这玩意没push方法
+}
+
+
+这玩意肯定报错() 
+// TypeError: arr.push is not a function
+// 终止运行
+
+
+错误处理
+.运行(这玩意肯定报错)
+.捕获((错误)=>{
+    打印.日志("错误内容",错误);
+    打印.日志('完成捕获不影响运行');
+})
+//错误内容 TypeError: arr.push is not a function
+//完成捕获不影响运行
+```
