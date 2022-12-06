@@ -42,14 +42,7 @@ const 数组工具 = {
     切片,
 
 }
-const arrTool = {
-    isArr:是否为数组,
-    delete:删除元素,
-    nrepeat:去重,
-    slice:切片,
 
-}
 module.exports = {
     数组工具,
-    arrTool
 }

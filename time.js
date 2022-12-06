@@ -36,12 +36,7 @@ const 时间 = {
     异步等待,
     循环定时器
 }
-const time = {
-    sleep:同步等待,
-    timeout:异步等待,
-    interval:循环定时器
-}
+
 module.exports ={
     时间,
-    time
 }
