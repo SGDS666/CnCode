@@ -5,7 +5,7 @@
   "description": "",
   "main": "./cnCode.js",
   "scripts": {
-    "ok":"git pull && npm version"
+    "push":"npm version"
   },
   "keywords": [],
   "author": "sgds",
