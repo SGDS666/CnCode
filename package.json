@@ -4,7 +4,9 @@
   "version": "1.0.34",
   "description": "",
   "main": "./cnCode.js",
-  "scripts": {},
+  "scripts": {
+    "ok":"git pull && npm version"
+  },
   "keywords": [],
   "author": "sgds",
   "license": "ISC"
