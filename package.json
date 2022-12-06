@@ -5,7 +5,6 @@
   "description": "",
   "main": "./cnCode.js",
   "scripts": {
-    "push":"npm version"
   },
   "keywords": [],
   "author": "sgds",
