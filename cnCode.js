@@ -5,7 +5,7 @@ const {固定循环,条件循环,cnFor,cnWhile} = require('./loop')
 const {time,时间} = require('./time')
 const {若,对号入座} = require("./flow")
 const {错误处理} = require("./errorhand")
-
+const 九章算数 = require("./Math")
 module.exports = {
     打印,
     固定循环,
@@ -15,4 +15,5 @@ module.exports = {
     若,
     对号入座,
     错误处理,
+    九章算数
 }
