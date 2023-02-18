@@ -19,11 +19,16 @@ const 去重 = (数组 = []) => {
 }
 const 切片 = (数组=[],开始索引=0,结束索引=0) => {
     const arr = []
+    let reverse = false
     if(结束索引<0){
         结束索引 = 数组.length + 结束索引
     }
     if(开始索引<0){
         开始索引 = 数组.length + 开始索引
+    }
+    if(开始索引>结束索引){
+        [开始索引,结束索引] = [结束索引,开始索引]
+        reverse = true
     }
     数组.forEach((item,index)=>{
         
@@ -32,6 +37,9 @@ const 切片 = (数组=[],开始索引=0,结束索引=0) => {
         }
 
     })
+    if(reverse){
+        return arr.reverse()
+    }
     return arr
 }
 
